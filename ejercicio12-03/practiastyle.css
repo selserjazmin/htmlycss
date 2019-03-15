@@ -1,0 +1,38 @@
+
+
+nav.navbar{
+  background-color: #2C3E50 !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.noheader{
+  background-color: #18BC9C;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.imagenprincipal{
+  padding-bottom: 40px;
+}
+.seccionportfolio{
+  padding-top: 40px;
+  color: #2C3E50;
+  text-align: center;
+}
+
+.trabajos{
+  width: 100%;
+}
+.elementos-portfolio{
+  margin-bottom: 30px;
+}
+.about{
+  background-color: #18BC9C;
+  text-align: center;
+  color: white;
+}
+.texto{
+  text-align: left;
+}

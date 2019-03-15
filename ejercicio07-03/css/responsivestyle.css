@@ -1,0 +1,83 @@
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+header{
+  width: 100vw;
+  background-color: aquamarine;
+  height: 20vh;
+  border: 1px solid black;
+}
+.contenedor{
+max-width: 1200px;
+border: 2px dotted blue;
+overflow: hidden;
+height: 500px;
+}
+
+.cajitaA, .cajitaB, .cajitaC{
+  float: left;
+}
+
+.cajitaA{
+  width: 20.83%;
+  height: 400px;
+  background-color: lightblue;
+  border: 1px;
+}
+.cajitaB{
+width: 62.5%;
+height: 400px;
+background-color: yellow;
+border: 3px dotted red;
+margin-left: 2.08%;
+margin-right: 2.08%;
+}
+.cajitaC{
+  width: 12.51%;
+  height: 400px;
+  background-color: pink;
+  border: 4px dotted green;
+}
+h2{
+  font-size: 1.75em;
+}
+p{
+  font-size:0.8125em;
+}
+
+@media (max-width: 960px){
+
+  section{
+    width: 95%;
+    padding: 20px;
+    }
+  .cajitaA{
+    width: 40%;
+    float: left;
+  }
+ .cajitaB{
+   width: 55%;
+   float: right;
+   margin: 0%;
+   }
+  .cajitaC{
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+ }
+ @media (max-width: 450px){
+   .contenedor{
+     overflow: inherit;
+     height: auto;
+   }
+   .cajitaA, .cajitaB, .cajitaC{
+     float: none;
+     width: 100%;
+   }
+ }

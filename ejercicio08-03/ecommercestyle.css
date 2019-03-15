@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: pink;
+}
+.logo{
+  width: 60px;
+}
+ul{
+  border: 1px solid black;
+}
+li{
+ list-style-type: none;
+ background-color: white;
+ padding: 5px;
+ text-align: center;
+ font-family: 'Raleway', sans-serif;
+
+}
+.menu{
+  width: 30px;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffe8fb;
+  padding: 5px;
+  text-align: center;
+}
+.producto{
+background-color: white;
+width: 80%;
+margin: 10px auto 0 auto;
+}
+.producto img{
+  width: 100%;
+}
+main{
+  margin-top: 10px;
+}
+.logoymenu{
+  position: relative;
+  padding: 20px 20px;
+}
+.logo{
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.menu{
+  position: absolute;
+  right: 16px;
+  bottom: 10px;
+}
+
+@media (min-width: 768px){
+  main{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .producto{
+    width: 50%;
+    float:left;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .producto img{
+    width: auto;
+    height: 100%;
+  }
+}
+@media (min-width: 960px){
+.menu{
+  display: none;
+}
+ul{
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+li{
+  display: inline-block;
+  border: none;
+}
+.producto{
+  width: 33.33%;
+  }
+}

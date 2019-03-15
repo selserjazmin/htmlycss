@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 40px;
+}
+
+div.contenedor{
+ width: 900px;
+ margin: auto;
+ background-color: #33364f;
+ padding: 30px 10px;
+}
+
+header, aside, main, footer {
+  background-color: mediumaquamarine;
+}
+
+header{
+  margin-bottom: 30px;
+}
+
+aside{
+  width: 300px;
+}
+main{
+  width: 570px;
+}
+aside{
+  float: left;
+}
+main{
+  float: right;
+}
+footer{
+  clear: both;
+  margin-top: 30px;
+}
+div.limpieza{
+  clear: both;
+}
